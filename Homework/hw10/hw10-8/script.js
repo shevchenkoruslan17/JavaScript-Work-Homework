@@ -4,7 +4,7 @@
 
 const table = document.getElementById('table');
 
-const tableGeneratorForm = document.form['tableGeneratorForm'];
+const tableGeneratorForm = document.forms['tableGeneratorForm'];
 
 tableGeneratorForm.onsubmit = function (e) {
     table.innerText = '';
